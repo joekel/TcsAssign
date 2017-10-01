@@ -23,6 +23,7 @@ public class SpringmvcApplication {
             ServletRegistrationBean registration = new ServletRegistrationBean(new CamelHttpTransportServlet(), "/camel/*");
             registration.setName("CamelServlet");
             return registration;
+            //testing theComite
         }
         
         
