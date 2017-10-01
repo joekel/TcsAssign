@@ -16,6 +16,11 @@ import org.springframework.stereotype.Component;
 
 import tcs.exa.domain.Customer;
 
+/**
+ * 
+ * @author coco
+ *
+ */
 @Component
 public class Camel extends RouteBuilder {
 
