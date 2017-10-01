@@ -17,6 +17,7 @@ public class SpringmvcApplication {
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(SpringmvcApplication.class, args);
+        //upstream
     }
         @Bean
         public ServletRegistrationBean camelServletRegistrationBean() {
